@@ -1,4 +1,51 @@
-# Nuxtjs-Tutorial
+<h3>Nuxt.js Nedir?</h3>
+<p>Nuxt.js, Vue.js, Node.js, Webpack ve Babel.js tabanlı ücretsiz ve açık kaynaklı bir JavaScript kitaplığıdır. Nuxt, React.js'yi temel alan benzer amaçlı bir çerçeve olan Next.js'den ilham almıştır.</p>
+<ul>
+<li>Modern javascript framework ü olan(SPA-Single Page Application) Vue.js üzerinden derlenir.</li>
+<li>Dosya ve klasör yapılarını kullanarak konfigürasyon yapar.</li>
+<li>Universal Vue Application(SSR-Server Side Rendering) üretmemize imkan sağlar.</li>
+</ul>
+
+<h3>Proje Dosyalarının Oluşturulması</h3>
+<ul>
+<li>Kullandığımız paket yönetim sisteme göre aşağıdaki kodu bilgisayarımızın terminalinde(cmd) çalıştırılır.
+<ul>
+<li>yarn için ==> <strong>yarn create nuxt-app PROJE_ISMI</strong></li>
+<li>npx için ==> <strong>npx create-nuxt-app PROJE_ISMI</strong></li>
+<li>npm için ==> <strong>npm init nuxt-app PROJE_ISMI</strong></li>
+</ul>
+</li>
+<li>Birinci işlem yaptıktan sonra terminalimize gelen aşağıdakilere benzer sorulara yanıt verilerek proje oluşturulur.
+<ul>
+<li><strong> Project name</strong>: Projeye bir isim verilir ya da varsayılan olarak oluşturmuş olduğumuz klasör ismi onaylayabiliriz.</li>
+<li><strong> Programming language</strong>: Projemizi hangi dilde(javascript ya da typescript) yazacağımızı seçeriz.</li>
+<li><strong> Package manager</strong>: Hangi paket tönetimini kullanacağımızı seçeriz.</li>
+<li><strong> UI framework</strong>: Gelen liste içerisinde hangi kullanıcı arayüz framework kullanacağımızı seçeriz veya <strong>None</strong> seçip devam edebiliriz.</li>
+<li><strong> Template engine</strong>: Kullanmak istediğimiz template(HTML ya da Pug) seçilir.</li>
+<li><strong> Nuxt.js modules</strong>: Gelen liste içerisindeki modüllerden biri seçilir.
+<ul>
+<li><strong>Axios - Promise based HTTP client</strong></li>
+<li><strong>Progressive Web App (PWA)</strong></li>
+<li><strong>Content - Git-based headless CMS</strong></li>
+</ul>
+</li>
+<li><strong>Linting tools</strong>: Gelen liste içerisinde kullanmak istediğimiz araçlardan biri seçilir.
+<ul>
+<li><strong>ESLint</strong></li>
+<li><strong>Prettier</strong></li>
+<li><strong>Lint staged files</strong></li>
+<li><strong>StyleLint</strong></li>
+<li><strong>Commitlint</strong></li>
+</ul>
+</li>
+<li><strong> Testing framework</strong>: Kullanmak istediğimiz bir test framework varsa seçilir.</li>
+<li><strong> Rendering mode</strong>: Kullanmak istediğimiz render modu(Universal (SSR / SSG), Single Page App) seçilir. Nuxt.js nin özelliklerden yararlanmak için burada Server Side Rendering(SSR) seçilmeli. </li>
+<li><strong> Deployment target</strong>: Deploymen hedefi(Server (Node.js hosting), Static (Static/Jamstack hosting)) seçilir.</li>
+<li><strong> Development tools</strong>: Kullanmak istediğimiz geliştirme araçlarından biri seçilir.</li>
+<li><strong> Version control system</strong>: Varsa kullanmak isteğimiz kontrol sistemi(git vb.) seçilir.</li>
+</ul>
+</li>
+</ul>
 
 ## Build Setup
 
