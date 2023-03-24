@@ -88,3 +88,13 @@ Bazıları özel davranışlara sahip olan aşağıdaki ekstra dizinleri oluştu
   <li><strong>store</strong>:Bu dizin, Vuex mağaza dosyalarınızı içerir. Bu dizinde bir dosya oluşturmak, Vuex'i otomatik olarak etkinleştirir. 
     <a href="https://nuxtjs.org/docs/2.x/directory-structure/store">Daha fazla bilgi</a></li>
 </ul>
+
+<h3>Nuxt.js Routing(Sayfa Yönlendirme)</h3>
+<p>Nuxt, pages klasörünün içinde oluşturmuş olduğumuz Vue dosyalarına dayalı olarak router işlemini otomatik olarak oluşturur. Örneğin pages klasörünün altında about klasörünü tanımladık ve bu klasörünün içinde index.vue componentini oluşturduğumuzda <NuxtLink to="/about">About</NuxtLink> olarak routing yaptığımızda ilgili klasördeki index componentine yönlendirme yapar.</p>
+
+```
+
+<NuxtLink to="/auth/login">Login</NuxtLink> // pages/auth/login/index.vue
+<NuxtLink to="/about">About</NuxtLink> // pages/about/index.vue
+
+```
